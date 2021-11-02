@@ -11,7 +11,7 @@ let gameStarted = false;
 let level = 0;
 
 function playSound(name) {
-  const audio = new Audio(`/Simon Game/sounds/${name}.mp3`);
+  const audio = new Audio(`/simon-game/sounds/${name}.mp3`);
   audio.play();
 }
 
